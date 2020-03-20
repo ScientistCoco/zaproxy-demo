@@ -1,0 +1,21 @@
+.TextInput {
+  &_Input {
+    background-color: rgb(250, 251, 252);
+    border: 1px solid rgb(223, 225, 230);
+    border-radius: 5px;
+    font-size: 1em;
+    outline: none;
+    padding: .5rem;
+    transition: background-color 0.2s ease-in-out 0s;
+    width: 100%;
+
+    &:hover {
+      background-color: rgb(235, 236, 240);
+    }
+  }
+
+  &_Label {
+    color: #2d3748;
+    font-weight: bold;
+  }
+}

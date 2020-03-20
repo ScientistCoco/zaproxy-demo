@@ -1,0 +1,14 @@
+// https://fonts.google.com/specimen/Fredoka+One?selection.family=Fredoka+One|Open+Sans
+
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Open+Sans&display=swap');
+
+$headerFontFamily: 'Fredoka One', cursive;
+$paragraphFontFamily: 'Open Sans', sans-serif;
+
+@mixin headerFont {
+  font-family: $headerFontFamily;
+}
+
+@mixin paragraphFont {
+  font-family: $paragraphFontFamily;
+}

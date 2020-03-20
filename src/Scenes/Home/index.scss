@@ -1,0 +1,50 @@
+@import "../../Styles/fonts.scss";
+
+.Home {
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+  height: 100%;
+
+  &_Section {
+
+    &--whitebg {
+      background-color: white;
+    }
+
+    &--white {
+      color: white;
+    }
+
+    &--flex {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    &--fill {
+      height: 100%;
+    }
+
+    &_Intro {
+      flex: 0.5;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      h1 {
+        font-family: $headerFontFamily;
+        font-size: 2.5em;
+        margin: 0;
+      }
+    }
+
+    &_Content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &_Svg {
+    bottom: -0.5rem;
+    position: relative;
+  }
+}

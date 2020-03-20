@@ -1,0 +1,25 @@
+.Comment {
+  display: flex;
+  width: 90%;  
+  padding: 1rem 0;
+  
+  p {
+    margin: 0;
+  }
+
+  &_Avatar {   
+   svg {
+     height: 3rem;
+     width: 3rem;
+   }
+  } 
+
+  &_User {
+    font-weight: bold;
+    font-size: 1em;
+  }
+
+  &_Content {
+    margin: 0 .5rem;
+  }
+}

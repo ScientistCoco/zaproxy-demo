@@ -1,0 +1,56 @@
+@import '../../Styles/fonts.scss';
+
+.Header {
+  // box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+  color: white;
+  width: 100%;  
+  // border-bottom: 1px solid #e2e8f0;
+
+  &_Brand {
+    align-items: center;  
+    color: white;  
+    display: flex;
+    font-family: $headerFontFamily;
+    font-size: 2em;
+    text-decoration: none;
+
+    &_Logo {
+      padding: 0 0.5rem;
+    }
+  }
+
+  &_Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    padding: 1rem; 
+  }
+
+  &_Links {
+    display: flex;
+    flex: 0.3;
+    font-family: $paragraphFontFamily;
+    font-size: 1em;
+    justify-content: space-evenly;
+    list-style: none;
+    cursor: pointer;
+
+    &_Item a {
+      text-decoration: none;
+      color: white;
+    }
+
+    &_Item:hover {
+      opacity: 0.5;
+      transition: opacity 0.5 ease-in-out;
+    }
+  }
+
+  &_Border {
+    border: none;
+    border-bottom: 2px solid #f7fafc;
+    border-top-width: 1px;
+    opacity: .25;
+    margin: 0;
+  }
+}
